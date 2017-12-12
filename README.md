@@ -93,7 +93,7 @@ Ploting Age_group             |  Plotting Cabin_group |  Plotting Fare_group
 
 <br>
 
-**6)** Ploting generalized Attributes with respect to Target attribute
+**7)** Ploting generalized Attributes with respect to Target attribute
 
 Ploting Age_group with Survived            |  Plotting Cabin_group with Survived |  Plotting Fare_group with Survived
 :-------------------------:|:-------------------------:|:-------------------------:
@@ -101,7 +101,7 @@ Ploting Age_group with Survived            |  Plotting Cabin_group with Survived
 
 <br>
 
-**7)** ![**GroupBy_Attribute_based_on_Target.txt**](output/9_GroupBy_Attribute_based_on_Target.txt)
+**8)** ![**GroupBy_Attribute_based_on_Target.txt**](output/9_GroupBy_Attribute_based_on_Target.txt)
 
 The file records provides the count of each attribute with respect to Target attribute.
 
@@ -131,8 +131,55 @@ The file records provides the count of each attribute with respect to Target att
         13     60-70      4         1
         14     70-80      4         0
         15     70-80      1         1
-        
+ 
+Refer the [file](output/9_GroupBy_Attribute_based_on_Target.txt) for other attributes.
+
 <br>
+
+**9)** ![**CrossAttribute_data_analysis.txt**](output/10_CrossAttributeAnalysis/1_CrossAttribute_data_analysis.txt)
+
+The file records provides the count of each attribute with respect to other attribute.
+
+    Frequency with respect to Pclass and Fare_group
+    Pclass  Fare_group
+        1       0-50           77
+                50-100         86
+                100-150        24
+                150-200         9
+                200-250        11
+                250-300         6
+                500-550         3
+        2       0-50          177
+                50-100          7
+        3       0-50          477
+                50-100         14
+
+
+    Frequency with respect to Sex & Embarked
+    Dictionary Mapping : {'male': 0, 'female': 1}
+    Dictionary Mapping : {'S': 1, 'C': 2, 'Q': 3}
+    Sex  Embarked
+    0    1           441
+         2            95
+         3            41
+    1    1           205
+         2            73
+         3            36
+         
+Refer the [file](output/10_CrossAttributeAnalysis/1_CrossAttribute_data_analysis.txt) for other attributes.
+
+<br>
+
+**10)** Ploting the Categorial Attributes with respect to other Attributes
+
+Plotting the Pclass & Fare group            |  Plotting the Fare group & Embarked
+:-------------------------:|:-------------------------:
+![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Pclass_Fare_group_Count.png)  |  ![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Fare_group_Embarked_Count.png)
+
+You can refer the ploting for other catagorial attributes under **output/5_*_GroupBy_Survived_Histogram_plot.png**
+
+<br>
+
 
 ## Author
 
