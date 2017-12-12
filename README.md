@@ -53,6 +53,7 @@ Histogram plotting of all Attributes             |  Box plotting of all Attribut
 
 
 <br>
+
 **3)** Ploting the Density and box plot with various additional information on catagorial attributes
 
 Plotting of Attributes - Age             |  Plotting of Attributes - Fare
@@ -62,6 +63,7 @@ Plotting of Attributes - Age             |  Plotting of Attributes - Fare
 You can refer the ploting for other catagorial attributes under **output/4_*_density_box_plot.png**
 
 <br>
+
 **4)** Ploting the Categorial Attributes grouped by Target Attribute
 
 Plotting of Age grouped by Survived             |  Plotting of Pclass grouped by Survived
