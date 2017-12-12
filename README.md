@@ -81,6 +81,15 @@ Pairwise plotting of Attributes             |
 ![](output/6_pairwise_plot.png)  |
 
 
+<br>
+
+**6)** Ploting the Attributes by generalized values
+
+Ploting Age_group             |  Plotting Cabin_group |  Plotting Fare_group
+:-------------------------:|:-------------------------:
+![](output/7_Count_Age_group_GroupedValues_plot.png)  |  ![](output/7_Count_Cabin_group_GroupedValues_plot.png) |  ![](output/7_Count_Fabin_group_GroupedValues_plot.png)
+
+
 
 
 ## Author
