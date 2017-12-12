@@ -43,6 +43,8 @@ Provides an overview of No# of Attributes, Name of the Attributes, Type of Attri
     Unique values for cataegorial column :  Survived [0 1]
     Unique values for cataegorial column :  Pclass [3 1 2]
 
+Refer the [file](output/1_initial_data_analysis.txt) for detailed output.
+
 <br>
 
 **2)** Histogram and Box ploting of all attributes in a single image to get the overall view of data
