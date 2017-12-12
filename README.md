@@ -44,11 +44,13 @@ Provides an overview of No# of Attributes, Name of the Attributes, Type of Attri
     Unique values for cataegorial column :  Pclass [3 1 2]
 
 
+
 **2)** Histogram and Box ploting of all attributes in a single image to get the overall view of data
 
 Histogram plotting of Attributes             |  Box plotting of Attributes
 :-------------------------:|:-------------------------:
 ![](output/2_Histogram_plot.png)  |  ![](output/3_Box_plot.png)
+
 
 
 **3)** Ploting the Density and box plot with various additional information on catagorial attributes
@@ -58,6 +60,7 @@ Plotting of Attributes -Age             |  Plotting of Attributes -Fare
 ![](output/4_Age_density_box_plot.png)  |  ![](output/4_Fare_density_box_plot.png)
 
 You can refer the ploting for other catagorial attributes under output/4_*_density_box_plot.png
+
 
 ## Author
 
