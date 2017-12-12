@@ -19,10 +19,36 @@ The code is generalized for other dataset also. You can use the script for other
     
     
 
+## Output Generated
 
-## Output Content
+Sample output is uploaded to *output* folder. 
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+1) ![**1_initial_data_analysis.txt**](output/1_initial_data_analysis.txt)
+
+Provides an overview of No# of Attributes, Name of the Attributes, Type of Attribute, Mean/Max/Range for each Attributes, Attributes with no# of missing values, Possible categorial Attributes, Unique value for these categorial values etc.
+
+    Instance Count :  891
+    Attribute count (X,y) :  12
+    Attribute Names (X,y) :  ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin',   'Embarked']
+
+    Most likely cataegorial values : ['Survived', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Embarked']
+    Most likely **Non cataegorial values : ['PassengerId', 'Name', 'Ticket', 'Fare', 'Cabin']
+    
+    Sum of Missing Values for each attributes : 
+        PassengerId      0
+        Survived         0
+        Pclass           0
+        Name             0
+        Sex              0
+        Age            177
+        SibSp            0
+        Parch            0
+        Ticket           0
+        Fare             0
+        Cabin          687
+        Embarked         2
+
+
 
 
 Solarized dark             |  Solarized Ocean
