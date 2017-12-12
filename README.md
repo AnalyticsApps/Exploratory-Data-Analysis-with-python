@@ -224,11 +224,11 @@ Refer the [file](output/11_CrossAttributeWithTargetAnalysis/1_CrossAttribute_Tar
 
 **12)** Ploting the Categorial Attributes with respect to other Attributes and Target Attribute
 
-Plotting the Pclass & Fare group            |  Plotting the Fare group & Embarked
+Plotting the Pclass & Age group & Survived           |  Plotting the Pclass & Fare group & Survived
 :-------------------------:|:-------------------------:
-![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Pclass_Fare_group_Count.png)  |  ![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Fare_group_Embarked_Count.png)
+![](output/11_CrossAttributeWithTargetAnalysis/2_CrossAttribute_Pclass_Age_group_Survived.png)  |  ![](output/11_CrossAttributeWithTargetAnalysis/2_CrossAttribute_Pclass_Fare_group_Survived.png)
 
-You can refer the ploting for other catagorial attributes under **output/10_CrossAttributeAnalysis/2_CrossAttribute_*_*_Count.png**
+You can refer the ploting for other catagorial attributes under **output/11_CrossAttributeWithTargetAnalysis/2_CrossAttribute_*_*_Survived.png**
 
 <br>
 
