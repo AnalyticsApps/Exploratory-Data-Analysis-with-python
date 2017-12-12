@@ -26,6 +26,10 @@ The code is generalized for other dataset also. You can use the script for other
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
 
+<p align="center">
+  <img src="output/4_Embarked_density_box_plot.png" width="450"/>
+  <img src="output/4_Embarked_density_box_plot.png" width="450"/>
+</p>
 
 ## Author
 
