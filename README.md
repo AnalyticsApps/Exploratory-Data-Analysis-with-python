@@ -72,6 +72,16 @@ Plotting of Age grouped by Survived             |  Plotting of Pclass grouped by
 
 You can refer the ploting for other catagorial attributes under **output/5_*_GroupBy_Survived_Histogram_plot.png**
 
+<br>
+
+**5)** Pairwise plotting of Attribute
+
+Pairwise plotting of Attributes             |
+:-------------------------:|
+![](output/6_pairwise_plot.png)  |
+
+
+
 
 ## Author
 
