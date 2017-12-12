@@ -45,9 +45,9 @@ Provides an overview of No# of Attributes, Name of the Attributes, Type of Attri
 
 
 
-Solarized dark             |  Solarized Ocean
+Histogram plotting of Attributes             |  Box plotting of Attributes
 :-------------------------:|:-------------------------:
-![](output/4_Embarked_density_box_plot.png)  |  ![](output/4_Embarked_density_box_plot.png)
+![](output/2_Histogram_plot.png)  |  ![](output/3_Box_plot.png)
 
 
 
