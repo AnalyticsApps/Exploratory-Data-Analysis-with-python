@@ -89,8 +89,48 @@ Ploting Age_group             |  Plotting Cabin_group |  Plotting Fare_group
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](output/7_Count_Age_group_GroupedValues_plot.png)  |  ![](output/7_Count_Cabin_group_GroupedValues_plot.png) |     ![](output/7_Count_Fare_group_GroupedValues_plot.png)
 
+<br>
 
+**6)** Ploting generalized Attributes with respect to Target attribute
 
+Ploting Age_group with Survived            |  Plotting Cabin_group with Survived |  Plotting Fare_group with Survived
+:-------------------------:|:-------------------------:|:-------------------------:
+![](output/8_Age_group_GroupBy_Survived_Histogram_plot.png)  |  ![](output/8_Cabin_group_GroupBy_Survived_Histogram_plot.png) |     ![](output/8_Fare_group_GroupBy_Survived_Histogram_plot.png)
+
+<br>
+
+**7)** ![**GroupBy_Attribute_based_on_Target.txt**](output/9_GroupBy_Attribute_based_on_Target.txt)
+
+The file records provides the count of each attribute with respect to Target attribute.
+
+    Group by on Attribute : Sex
+    Dictionary Mapping : {'male': 0, 'female': 1}
+        Sex  count  Survived
+        0    0    468         0
+        1    0    109         1
+        2    1     81         0
+        3    1    233         1
+        
+    Group by on Attribute : Age_group
+    Age_group  count  Survived
+        0       0-10     26         0
+        1       0-10     38         1
+        2      10-20     71         0
+        3      10-20     44         1
+        4      20-30    271         0
+        5      20-30    136         1
+        6      30-40     86         0
+        7      30-40     69         1
+        8      40-50     53         0
+        9      40-50     33         1
+        10     50-60     25         0
+        11     50-60     17         1
+        12     60-70     13         0
+        13     60-70      4         1
+        14     70-80      4         0
+        15     70-80      1         1
+        
+<br>
 
 ## Author
 
