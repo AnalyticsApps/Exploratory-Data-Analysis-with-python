@@ -1,0 +1,149 @@
+
+============================================================================================
+Dataset :  Titanic
+Date :  2017-12-11 16:08:32.881445
+
+============================================================================================
+
+Instance Count :  891
+Attribute count (X,y) :  12
+Attribute Names (X,y) :  ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+
+
+Attribute with Numeric Type :  Index(['PassengerId', 'Survived', 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare'], dtype='object')
+Attribute with String Type :  ['Name', 'Sex', 'Ticket', 'Cabin', 'Embarked']
+
+============================================================================================
+
+Sample data : 
+   PassengerId  Survived  Pclass  \
+0            1         0       3   
+1            2         1       1   
+2            3         1       3   
+3            4         1       1   
+4            5         0       3   
+
+                                                Name     Sex   Age  SibSp  \
+0                            Braund, Mr. Owen Harris    male  22.0      1   
+1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1   
+2                             Heikkinen, Miss. Laina  female  26.0      0   
+3       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1   
+4                           Allen, Mr. William Henry    male  35.0      0   
+
+   Parch            Ticket     Fare Cabin Embarked  
+0      0         A/5 21171   7.2500   NaN        S  
+1      0          PC 17599  71.2833   C85        C  
+2      0  STON/O2. 3101282   7.9250   NaN        S  
+3      0            113803  53.1000  C123        S  
+4      0            373450   8.0500   NaN        S  
+
+============================================================================================
+
+Describe Attributes : 
+
+
+       PassengerId    Survived      Pclass         Age       SibSp  \
+count   891.000000  891.000000  891.000000  714.000000  891.000000   
+mean    446.000000    0.383838    2.308642   29.699118    0.523008   
+std     257.353842    0.486592    0.836071   14.526497    1.102743   
+min       1.000000    0.000000    1.000000    0.420000    0.000000   
+25%     223.500000    0.000000    2.000000   20.125000    0.000000   
+50%     446.000000    0.000000    3.000000   28.000000    0.000000   
+75%     668.500000    1.000000    3.000000   38.000000    1.000000   
+max     891.000000    1.000000    3.000000   80.000000    8.000000   
+
+            Parch        Fare  
+count  891.000000  891.000000  
+mean     0.381594   32.204208  
+std      0.806057   49.693429  
+min      0.000000    0.000000  
+25%      0.000000    7.910400  
+50%      0.000000   14.454200  
+75%      0.000000   31.000000  
+max      6.000000  512.329200  
+
+============================================================================================
+
+Attributes that have Missing Values : 
+
+
+PassengerId    False
+Survived       False
+Pclass         False
+Name           False
+Sex            False
+Age             True
+SibSp          False
+Parch          False
+Ticket         False
+Fare           False
+Cabin           True
+Embarked        True
+dtype: bool
+
+============================================================================================
+
+Sum of Missing Values for each attributes : 
+
+
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+
+============================================================================================
+
+Most likely cataegorial values : 
+['Survived', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Embarked']
+
+
+Most likely **Non cataegorial values : 
+['PassengerId', 'Name', 'Ticket', 'Fare', 'Cabin']
+
+============================================================================================
+
+Unique values for cataegorial column :  Survived
+[0 1]
+
+ 
+Unique values for cataegorial column :  Pclass
+[3 1 2]
+
+ 
+Unique values for cataegorial column :  Sex
+['male' 'female']
+
+ 
+Unique values for cataegorial column :  Age
+[ 22.    38.    26.    35.      nan  54.     2.    27.    14.     4.    58.
+  20.    39.    55.    31.    34.    15.    28.     8.    19.    40.    66.
+  42.    21.    18.     3.     7.    49.    29.    65.    28.5    5.    11.
+  45.    17.    32.    16.    25.     0.83  30.    33.    23.    24.    46.
+  59.    71.    37.    47.    14.5   70.5   32.5   12.     9.    36.5   51.
+  55.5   40.5   44.     1.    61.    56.    50.    36.    45.5   20.5   62.
+  41.    52.    63.    23.5    0.92  43.    60.    10.    64.    13.    48.
+   0.75  53.    57.    80.    70.    24.5    6.     0.67  30.5    0.42
+  34.5   74.  ]
+
+ 
+Unique values for cataegorial column :  SibSp
+[1 0 3 4 2 5 8]
+
+ 
+Unique values for cataegorial column :  Parch
+[0 1 2 5 3 4 6]
+
+ 
+Unique values for cataegorial column :  Embarked
+['S' 'C' 'Q' nan]
+
+ 
