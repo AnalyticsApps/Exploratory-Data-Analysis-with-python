@@ -1,6 +1,14 @@
-# Exploratory-Data-Analysis-with-python
+# Exploratory Data Analysis with Python
+
+Repo provides various exploratory analysis on the dataset to get insight on data. As an example, I have taken the Titanic dataset from Kaggle [Titanic DataSet] 
 
 
+[Titanic DataSet]: https://www.kaggle.com/c/titanic/data 
+
+The code is generalized for other dataset also. You can use the script for other dataset with minimal changes.
+
+
+## Usage
 
 
 
