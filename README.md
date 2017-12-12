@@ -176,7 +176,59 @@ Plotting the Pclass & Fare group            |  Plotting the Fare group & Embarke
 :-------------------------:|:-------------------------:
 ![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Pclass_Fare_group_Count.png)  |  ![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Fare_group_Embarked_Count.png)
 
-You can refer the ploting for other catagorial attributes under **output/5_*_GroupBy_Survived_Histogram_plot.png**
+You can refer the ploting for other catagorial attributes under **output/10_CrossAttributeAnalysis/2_CrossAttribute_*_*_Count.png**
+
+<br>
+
+**11)** ![**CrossAttribute_data_analysis.txt**](output/11_CrossAttributeWithTargetAnalysis/1_CrossAttribute_Target_data_analysis.txt)
+
+The file records provides the count of each attribute with other attribute along with target attribute
+
+    Frequency with respect to Pclass & Sex & Survived
+    Dictionary Mapping : {'male': 0, 'female': 1}
+    Pclass  Sex  Survived
+    1       0    0            77
+                 1            45
+            1    0             3
+                 1            91
+    2       0    0            91
+                 1            17
+            1    0             6
+                 1            70
+    3       0    0           300
+                 1            47
+            1    0            72
+                 1            72
+  
+  
+    Frequency with respect to Sex & Embarked & Survived
+    Dictionary Mapping : {'male': 0, 'female': 1}
+    Dictionary Mapping : {'S': 1, 'C': 2, 'Q': 3}
+    Sex  Embarked  Survived
+    0    1         0           364
+                   1            77
+         2         0            66
+                   1            29
+         3         0            38
+                   1             3
+    1    1         0            63
+                   1           142
+         2         0             9
+                   1            64
+         3         0             9
+                   1            27
+                   
+Refer the [file](output/11_CrossAttributeWithTargetAnalysis/1_CrossAttribute_Target_data_analysis.txt) for other attributes.
+
+<br>
+
+**12)** Ploting the Categorial Attributes with respect to other Attributes and Target Attribute
+
+Plotting the Pclass & Fare group            |  Plotting the Fare group & Embarked
+:-------------------------:|:-------------------------:
+![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Pclass_Fare_group_Count.png)  |  ![](output/10_CrossAttributeAnalysis/2_CrossAttribute_Fare_group_Embarked_Count.png)
+
+You can refer the ploting for other catagorial attributes under **output/10_CrossAttributeAnalysis/2_CrossAttribute_*_*_Count.png**
 
 <br>
 
