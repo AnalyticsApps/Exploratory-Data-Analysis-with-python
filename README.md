@@ -36,18 +36,12 @@ Provides an overview of No# of Attributes, Name of the Attributes, Type of Attri
     
     Sum of Missing Values for each attributes : 
         PassengerId      0
-        Survived         0
-        Pclass           0
-        Name             0
-        Sex              0
         Age            177
-        SibSp            0
-        Parch            0
-        Ticket           0
-        Fare             0
         Cabin          687
         Embarked         2
 
+    Unique values for cataegorial column :  Survived [0 1]
+    Unique values for cataegorial column :  Pclass [3 1 2]
 
 
 
