@@ -639,8 +639,8 @@ def main():
 
     Arguments Passed:
     -----------------
-    python ExploratoryAnalysis.py Titanic /opt/PythonConda/ML/titan/train.csv
-    Survived /opt/PythonConda/ML/titan/output1
+    python ExploratoryDataAnalysis.py Titanic /opt/PythonConda/ML/titan/train.csv
+    Survived /opt/git_projects/Exploratory-Data-Analysis-with-python/output
 
     """
 
